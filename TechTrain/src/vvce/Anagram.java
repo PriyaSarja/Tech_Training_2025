@@ -1,18 +1,20 @@
 package vvce;
+import java.util.*;
 
 public class Anagram {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String word1 = "LEMON";
-		String word2 = "MELOO";
+		Scanner sc = new Scanner(System.in);
+		String word1 = sc.nextLine();
+		String word2 = sc.nextLine();
 		if(areAnag(word1,word2)) {
 			System.out.println("Anagrams");	
 		}
 		else {
 			System.out.println("Not Anagrams");	
 		}
-		
+		sc.close();
 	}
 	public static boolean areAnag(String word1, String word2) {
 		if(word1.length() != word2.length()) {

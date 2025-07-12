@@ -7,6 +7,7 @@ public class PrimeFactors {
     	Scanner sc = new Scanner(System.in);
         int number = sc.nextInt(); 
         primeFact(number);
+        sc.close();
     }
     public static void primeFact(int num) {
         while (num % 2 == 0) {

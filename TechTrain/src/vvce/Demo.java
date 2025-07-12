@@ -22,6 +22,7 @@ class Demo {
             sc.nextLine(); 
             
             emp[i] = new Employee(name, id, salary);
+            sc.close();
         }
 
         Employee.sortEmployees(emp);

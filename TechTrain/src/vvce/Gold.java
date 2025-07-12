@@ -1,11 +1,9 @@
 package vvce;
-import java.util.ArrayList;
 
 public class Gold {
     public static void main(String[] args) {
         
-        ArrayList<Integer> pricesList = new ArrayList<>();
-      
+
         int[] pricesArray = {7, 1, 5, 3, 6, 4};
         //[12, 2, 1, 4, 3, 11, 6]
         //[7, 4, 9, 1, 3, 4, 2]

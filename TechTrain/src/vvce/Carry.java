@@ -10,9 +10,10 @@ public class Carry {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		carryCount(a,b);
+		sc.close();
 	}
 	public static void carryCount(int n1, int n2) {
-		int last1, last2, sum ,carryValue = 0, flag=0, count =0;
+		int last1, last2, sum = 0, flag=0, count =0;
 		while(n1 != 0 || n2 != 0) {
 			last1 = n1%10;
 			last2 = n2%10;
@@ -29,4 +30,5 @@ public class Carry {
 		System.out.println(count);
 		
 	}
+	
 }

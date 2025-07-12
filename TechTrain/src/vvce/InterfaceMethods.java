@@ -57,5 +57,6 @@ public class InterfaceMethods {
     c1.startEngine();
     c1.moveCar();
     c1.stopCar();
+    sc.close();
 	}
 }

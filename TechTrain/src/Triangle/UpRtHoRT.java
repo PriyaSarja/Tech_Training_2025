@@ -1,4 +1,4 @@
-package vvce;
+package Triangle;
 
 public class UpRtHoRT {
     public static void main(String[] args) {

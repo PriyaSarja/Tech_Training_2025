@@ -34,5 +34,6 @@ public class LCMandHCF {
 
         System.out.println("HCF (GCD) of the numbers: " + resultGCD);
         System.out.println("LCM of the numbers: " + resultLCM);
+        sc.close();
     }
 }
